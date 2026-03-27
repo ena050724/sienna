@@ -423,6 +423,9 @@ body.horizontal-page. ocean-background {
     66% { transform: translate(20px, -12px) rotate(10deg); }
 }
 
+
+pointer-events:none;
+
 /* === MYTHICAL SEA CREATURES (Big Fish) === */
 .mythical-creatures {
     position: absolute;

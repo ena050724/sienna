@@ -26,7 +26,7 @@ body.horizontal-page {
    overflow-y: hidden;
     color: black;  
     font-family: 'Macondo', cursive;
-    background: #001f3f;      
+    background: #3c8eba;      
     cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><line x1="16" y1="0" x2="16" y2="24" stroke="%238b4513" stroke-width="2"/><line x1="14" y1="2" x2="18" y2="2" stroke="%238b4513" stroke-width="1"/><line x1="12" y1="22" x2="16" y2="24" stroke="%23666" stroke-width="1.5"/><line x1="20" y1="22" x2="16" y2="24" stroke="%23666" stroke-width="1.5"/><circle cx="16" cy="26" r="2" fill="%23silver"/></svg>') 16 0, auto;
 }
     /* === OCEAN CONTAINER === */

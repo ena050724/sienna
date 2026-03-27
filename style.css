@@ -14,7 +14,7 @@
 body {
     display: flex;            
     justify-content: center;    
-    align-items: center;       
+    align-items: flex-start;       
     height: 100vh;             
     width: 200vw;               
     margin: 0;
@@ -24,7 +24,6 @@ body {
     overflow-x: scroll;        
     font-family: 'Macondo', cursive;
     background: #001f3f;      
-    overflow: hidden;
     cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><line x1="16" y1="0" x2="16" y2="24" stroke="%238b4513" stroke-width="2"/><line x1="14" y1="2" x2="18" y2="2" stroke="%238b4513" stroke-width="1"/><line x1="12" y1="22" x2="16" y2="24" stroke="%23666" stroke-width="1.5"/><line x1="20" y1="22" x2="16" y2="24" stroke="%23666" stroke-width="1.5"/><circle cx="16" cy="26" r="2" fill="%23silver"/></svg>') 16 0, auto;
 }
 
@@ -93,14 +92,17 @@ body {
 }
 /* === ANIMATED WATER BACKGROUND === */
 .ocean-background {
-    position: absolute;
-    size: cover;
+    position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
+    width: 300%;
+    height: 100vh;
     background: linear-gradient(to bottom, #105773 0%, #3c8eba 50%, #05335e 100%);
-    z-index: 1;
+   background-repeat:repeat-x;
+   background-size:cover;
+   background-position: top center;
+   
+    z-index: -1;
 }
 /* Water flow effect */
 .water-flow {

@@ -32,7 +32,7 @@ body.horizontal-page {
 }
     /* === OCEAN CONTAINER === */
 .ocean-container { 
-   position:relative;
+   position: relative;
     width: 200vw;           
     min-height: 100vh;   
 }
@@ -105,7 +105,7 @@ body.horizontal-page.ocean-background {
    background-repeat:repeat-x;
    background-size:cover;
    background-position: top center;
-    z-index: -10;
+    z-index: -1;
 }
 
 

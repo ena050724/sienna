@@ -414,6 +414,7 @@ body.horizontal-page.ocean-background {
 .shoe:hover {
     transform: scale(1.3) rotate(-15deg);
     cursor: pointer;
+   pointer-events:none;
 }
 
 @keyframes driftSlow {
@@ -423,7 +424,7 @@ body.horizontal-page.ocean-background {
 }
 
 
-pointer-events:none;
+
 
 /* === MYTHICAL SEA CREATURES (Big Fish) === */
 .mythical-creatures {
@@ -765,6 +766,11 @@ pointer-events:none;
     font-size: 14px;
     font-weight: 400;
 }
+button{
+   pointer-events:auto;
+   z-index:10;
+}
+
 .week-buttons {
     display: flex;
     justify-content: space-between;

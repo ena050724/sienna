@@ -538,12 +538,11 @@ body.horizontal-page. ocean-background {
 /* === OLD PARCHMENT LETTER === */
 .parchment-letter {
     position: absolute;
-    background: url("image/parchment.png") no-repeat center;
     background-size: contain;
     top: 50%;
-    left: 50%;
+    left: 50vw;
     transform: translate(-50%, -50%);
-    width: 500px;
+    width: fit-content;
     max-width: 90vw;
     padding: 40px;
     background: linear-gradient(to bottom, #f4e4c1, #e8d4a0);

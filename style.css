@@ -33,8 +33,9 @@ body {
     flex-direction: column;
     justify-content: center; 
     align-items: center;     
-    width: 100vw;           
-    min-height: 100vh;       
+    width: 200vw;           
+    min-height: 100vh;   
+   position:relative;
 }
 
 .homepage-title {
@@ -92,17 +93,17 @@ body {
 }
 /* === ANIMATED WATER BACKGROUND === */
 .ocean-background {
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
-    width: 300%;
+    width: 200vw;
     height: 100vh;
     background: linear-gradient(to bottom, #105773 0%, #3c8eba 50%, #05335e 100%);
    background-repeat:repeat-x;
    background-size:cover;
    background-position: top center;
    
-    z-index: -1;
+    z-index: -10;
 }
 /* Water flow effect */
 .water-flow {
